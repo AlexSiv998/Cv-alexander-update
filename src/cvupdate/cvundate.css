@@ -2,3 +2,47 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background-color: blue;
+  margin: 0 250px;
+  padding: 30px 15px;
+}
+
+header {
+  background-color: rgb(6, 21, 96);
+  margin: 0 0 25px 0;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+header div {
+  margin: 0 90px;
+  gap: 10px;
+}
+
+.datos {
+  display: flex;
+  gap: 20px;
+}
+
+.titulos {
+  margin: 0 80px 8px 80px;
+}
+
+h1 {
+  color: rgb(12, 108, 156);
+  font-size: 55px;
+}
+
+section {
+  display:grid;
+  
+  gap: 6px;
+}
+
+footer{
+  background-color: rgb(101, 10, 186) ;
+}
