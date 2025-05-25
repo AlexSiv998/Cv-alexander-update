@@ -33,14 +33,23 @@ header div {
 }
 
 h1 {
-  color: rgb(12, 108, 156);
+  color: rgb(96, 165, 250);
   font-size: 55px;
 }
 
-section {
+header h2 {
+  color: rgb(209, 213, 219);
+}
+
+main section {
   display:grid;
-  
+  grid-template-columns: 50% 50%;
   gap: 6px;
+  border-radius: 15px;
+}
+
+section {
+  gap: 20x;
 }
 
 footer{
